@@ -6,15 +6,21 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Application/Src/cbfifo.c \
-../Application/Src/elevator.c 
+../Application/Src/elevator.c \
+../Application/Src/events.c \
+../Application/Src/gpio_info.c 
 
 OBJS += \
 ./Application/Src/cbfifo.o \
-./Application/Src/elevator.o 
+./Application/Src/elevator.o \
+./Application/Src/events.o \
+./Application/Src/gpio_info.o 
 
 C_DEPS += \
 ./Application/Src/cbfifo.d \
-./Application/Src/elevator.d 
+./Application/Src/elevator.d \
+./Application/Src/events.d \
+./Application/Src/gpio_info.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -24,7 +30,7 @@ Application/Src/%.o Application/Src/%.su: ../Application/Src/%.c Application/Src
 clean: clean-Application-2f-Src
 
 clean-Application-2f-Src:
-	-$(RM) ./Application/Src/cbfifo.d ./Application/Src/cbfifo.o ./Application/Src/cbfifo.su ./Application/Src/elevator.d ./Application/Src/elevator.o ./Application/Src/elevator.su
+	-$(RM) ./Application/Src/cbfifo.d ./Application/Src/cbfifo.o ./Application/Src/cbfifo.su ./Application/Src/elevator.d ./Application/Src/elevator.o ./Application/Src/elevator.su ./Application/Src/events.d ./Application/Src/events.o ./Application/Src/events.su ./Application/Src/gpio_info.d ./Application/Src/gpio_info.o ./Application/Src/gpio_info.su
 
 .PHONY: clean-Application-2f-Src
 

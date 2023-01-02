@@ -1,0 +1,21 @@
+#include "gpio_info.h"
+
+const gpio_info_t buttonInfo[TotalButtons] =
+{
+	{GND_UP_GPIO_Port, GND_UP_Pin},
+	{FIRST_UP_GPIO_Port, FIRST_UP_Pin},
+	{FIRST_DOWN_GPIO_Port, FIRST_DOWN_Pin},
+	{SECOND_UP_GPIO_Port, SECOND_UP_Pin},
+	{SECOND_DOWN_GPIO_Port, SECOND_DOWN_Pin},
+	{THIRD_UP_GPIO_Port, THIRD_UP_Pin},
+	{THIRD_DOWN_GPIO_Port, THIRD_DOWN_Pin},
+	{ELV_GND_GPIO_Port, ELV_GND_Pin},
+	{ELV_FIRST_GPIO_Port, ELV_FIRST_Pin},
+	{ELV_SECOND_GPIO_Port, ELV_SECOND_Pin},
+	{ELV_THIRD_GPIO_Port, ELV_THIRD_Pin},
+	{ELV_OPEN_GPIO_Port, ELV_OPEN_Pin},
+	{ELV_CLOSE_GPIO_Port, ELV_CLOSE_Pin},
+	{ELV_LIGHT_GPIO_Port, ELV_LIGHT_Pin},
+	{ELV_FAN_GPIO_Port, ELV_FAN_Pin},
+	{ELV_EMGCY_GPIO_Port, ELV_EMGCY_Pin}
+};

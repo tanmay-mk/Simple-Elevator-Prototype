@@ -1,7 +1,5 @@
-Application/Src/elevator.o: ../Application/Src/elevator.c \
- C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/elevator.h \
- C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/events.h \
- C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/cbfifo.h \
+Application/Src/gpio_info.o: ../Application/Src/gpio_info.c \
+ C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/gpio_info.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -28,9 +26,7 @@ Application/Src/elevator.o: ../Application/Src/elevator.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/elevator.h:
-C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/events.h:
-C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/cbfifo.h:
+C:/Users/tanma/OneDrive/Desktop/CubeIDEWorkspace/ElevatorPrototype-F401RE/Application/Inc/gpio_info.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:

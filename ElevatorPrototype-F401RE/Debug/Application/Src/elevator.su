@@ -1,0 +1,3 @@
+../Application/Src/elevator.c:10:13:ToggleDeviceStatus	16	static
+../Application/Src/elevator.c:38:13:ElevatorFSM	16	static
+../Application/Src/elevator.c:49:6:Elevator	8	static
